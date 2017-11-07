@@ -8,7 +8,7 @@ DOMAIN=demo.praful.com
 
             echo "Updating vhost config for $DOMAIN..."
             sudo sed -i s,scotchbox.local,$DOMAIN,g /etc/apache2/sites-available/$DOMAIN.conf
-            sudo sed -i s,/var/www/public,/var/www/Demp-tp,g /etc/apache2/sites-available/$DOMAIN.conf
+            sudo sed -i s,/var/www/public,/var/www/htdocs,g /etc/apache2/sites-available/$DOMAIN.conf
 
             echo "Enabling $DOMAIN. Will probably tell you to restart Apache..."
             sudo a2ensite $DOMAIN.conf
