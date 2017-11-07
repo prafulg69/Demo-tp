@@ -11,10 +11,11 @@
 	"require": {
 		"php": ">=5.4",
 		
+		"mnsami/composer-custom-directory-installer": "1.1.*",
 		"johnpbloch/wordpress": "4.7.6",
 		"wpackagist-theme/twentyfifteen": "1.7"
-		 
-		 },
+		
+	},
 
 	"autoload": {
             "psr-4": {"Acme\\": "src/"}
@@ -23,9 +24,10 @@
 	"extra": {
 
 		"installer-paths":{
-			"Demp-tp/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+			"htdocs/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+			"htdocs/wp-content/themes/{$name}/": ["type:wordpress-theme"]
 		},
-    	"wordpress-install-dir": "Demp-tp/cms"
+    	"wordpress-install-dir": "htdocs/cms"
     	
     
   }
