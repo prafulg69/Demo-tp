@@ -23,8 +23,8 @@ cd /var/www
 ## Create Database and Import SQL File
 echo Create Database and Import SQL FIle
 
-sudo mysql -uroot -proot -e "CREATE DATABASE db_devgcmw";
-sudo mysql -uroot -proot db_devgcmw < db/db_devgcmw.sql
+## sudo mysql -uroot -proot -e "CREATE DATABASE db_devgcmw";
+
 
 
 ## Run composer
