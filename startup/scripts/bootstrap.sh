@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ## Configure Apache
 ## Only thing you probably really care about is right here
-DOMAIN=demo.praful.com
+DOMAIN=www.chinmayamission.com
 	   
             echo "Creating vhost config for $DOMAIN..."
             sudo cp /etc/apache2/sites-available/scotchbox.local.conf /etc/apache2/sites-available/$DOMAIN.conf
@@ -21,10 +21,10 @@ DOMAIN=demo.praful.com
 cd /var/www
 
 ## Create Database and Import SQL File
-#echo Create Database and Import SQL FIle
+echo Create Database and Import SQL FIle
 
-#sudo mysql -uroot -proot -e "CREATE DATABASE db_devgcmw";
-#sudo mysql -uroot -proot db_devgcmw < db/db_devgcmw.sql
+sudo mysql -uroot -proot -e "CREATE DATABASE db_devgcmw";
+sudo mysql -uroot -proot db_devgcmw < db/db_devgcmw.sql
 
 
 ## Run composer
