@@ -1,0 +1,331 @@
+[
+    {
+        "name": "johnpbloch/wordpress-core-installer",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+            "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
+            "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "conflict": {
+            "composer/installers": "<1.0.6"
+        },
+        "require-dev": {
+            "composer/composer": "^1.0",
+            "phpunit/phpunit": ">=4.8.35"
+        },
+        "time": "2017-05-31T18:42:33+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "johnpbloch\\Composer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "John P. Bloch",
+                "email": "me@johnpbloch.com"
+            }
+        ],
+        "description": "A custom installer to handle deploying WordPress with composer",
+        "keywords": [
+            "wordpress"
+        ]
+    },
+    {
+        "name": "composer/installers",
+        "version": "v1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+            "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2017-08-09T07:53:48+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Eliasis",
+            "Hurad",
+            "ImageCMS",
+            "Kanboard",
+            "Lan Management System",
+            "MODX Evo",
+            "Mautic",
+            "Maya",
+            "OXID",
+            "Plentymarkets",
+            "Porto",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "eZ Platform",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "itop",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lavalite",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "osclass",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "sydes",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "mnsami/composer-custom-directory-installer",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mnsami/composer-custom-directory-installer.git",
+            "reference": "8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mnsami/composer-custom-directory-installer/zipball/8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5",
+            "reference": "8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0",
+            "php": ">=5.3"
+        },
+        "time": "2016-05-25T08:26:02+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": [
+                "Composer\\CustomDirectoryInstaller\\LibraryPlugin",
+                "Composer\\CustomDirectoryInstaller\\PearPlugin",
+                "Composer\\CustomDirectoryInstaller\\PluginPlugin"
+            ],
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\CustomDirectoryInstaller": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mina Nabil Sami",
+                "email": "mina.nsami@gmail.com"
+            }
+        ],
+        "description": "A composer plugin, to help install packages of different types in custom paths.",
+        "keywords": [
+            "composer",
+            "composer-installer",
+            "composer-plugin"
+        ]
+    },
+    {
+        "name": "johnpbloch/wordpress-core",
+        "version": "4.7.6",
+        "version_normalized": "4.7.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/johnpbloch/wordpress-core.git",
+            "reference": "11dc5db548436d47938b401e5316673fd3dca93e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/11dc5db548436d47938b401e5316673fd3dca93e",
+            "reference": "11dc5db548436d47938b401e5316673fd3dca93e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "provide": {
+            "wordpress/core-implementation": "4.7.6"
+        },
+        "time": "2017-09-19T22:21:27+00:00",
+        "type": "wordpress-core",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "WordPress Community",
+                "homepage": "http://wordpress.org/about/"
+            }
+        ],
+        "description": "WordPress is web software you can use to create a beautiful website or blog.",
+        "homepage": "http://wordpress.org/",
+        "keywords": [
+            "blog",
+            "cms",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "johnpbloch/wordpress",
+        "version": "4.7.6",
+        "version_normalized": "4.7.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/johnpbloch/wordpress.git",
+            "reference": "5aa50c1e5cabeae2911df26fa248ad3f3c6f5fa0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/5aa50c1e5cabeae2911df26fa248ad3f3c6f5fa0",
+            "reference": "5aa50c1e5cabeae2911df26fa248ad3f3c6f5fa0",
+            "shasum": ""
+        },
+        "require": {
+            "johnpbloch/wordpress-core": "4.7.6",
+            "johnpbloch/wordpress-core-installer": "^1.0",
+            "php": ">=5.3.2"
+        },
+        "time": "2017-09-19T22:21:32+00:00",
+        "type": "package",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "WordPress Community",
+                "homepage": "http://wordpress.org/about/"
+            }
+        ],
+        "description": "WordPress is web software you can use to create a beautiful website or blog.",
+        "homepage": "http://wordpress.org/",
+        "keywords": [
+            "blog",
+            "cms",
+            "wordpress"
+        ]
+    },
+    {
+        "name": "wpackagist-theme/twentyfifteen",
+        "version": "1.7",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://themes.svn.wordpress.org/twentyfifteen/",
+            "reference": "1.7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.7.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-theme",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/themes/twentyfifteen/"
+    }
+]
